@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Misc Man Spawn Egg\"}'}, EntityTag:{VillagerData:{profession:cleric,level:99,type:plains},Invulnerable:1,PersistenceRequired:1,Silent:1,NoAI:1,CustomName:\"\\\"Misc Man\\\"\",Offers:{Recipes:[{buy:{id:gold_ingot,Count:64,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:elytra,Count:1,tag:{display:{Name:'{\"text\":\"Pirate Cape\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:64,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:trident,Count:1,tag:{display:{Name:'{\"text\":\"Fancy Fork\"}'}, Enchantments:[{id:unbreaking, lvl:3},{id:riptide, lvl:3}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:64,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:totem_of_undying,Count:1,tag:{display:{Name:'{\"text\":\"Voodoo Doll\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:1,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:string,Count:1,tag:{display:{Name:'{\"text\":\"Rigging\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:1,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:gunpowder,Count:1,tag:{display:{Name:'{\"text\":\"Cannonpowder\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:1,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:bone,Count:1,tag:{display:{Name:'{\"text\":\"Davy Jones\\'s Textbook\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:1,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:leather,Count:1,tag:{display:{Name:'{\"text\":\"Cow Skin\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:1,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:slime_ball,Count:1,tag:{display:{Name:'{\"text\":\"Boogers\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:1,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:magma_cream,Count:1,tag:{display:{Name:'{\"text\":\"Fireball\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:1,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:arrow,Count:4,tag:{display:{Name:'{\"text\":\"Bow Ammo\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:1,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:ink_sac,Count:1,tag:{display:{Name:'{\"text\":\"Squid Bladder\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:2,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:spider_eye,Count:1,tag:{display:{Name:'{\"text\":\"Gumball\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:3,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:ender_pearl,Count:1,tag:{display:{Name:'{\"text\":\"Seaweed Ball\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:5,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:blaze_rod,Count:1,tag:{display:{Name:'{\"text\":\"Firestick\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:5,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:ghast_tear,Count:1,tag:{display:{Name:'{\"text\":\"The Tears of Your Enemies\"}'}}},rewardExp:0b,maxUses:9999999}]}}}"
+            }
+          ],
+          "name": "minecraft:villager_spawn_egg"
+        }
+      ]
+    }
+  ]
+}

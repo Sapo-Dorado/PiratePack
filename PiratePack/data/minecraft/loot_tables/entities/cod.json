@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Armorer Spawn Egg\"}'}, EntityTag:{VillagerData:{profession:armorer,level:99,type:plains},Invulnerable:1,PersistenceRequired:1,Silent:1,NoAI:1,CustomName:\"\\\"Armorer\\\"\",Offers:{Recipes:[{buy:{id:gold_ingot,Count:64,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:netherite_helmet,Count:1,tag:{display:{Name:'{\"text\":\"Pirate Hat\"}'},Enchantments:[{id:unbreaking,lvl:3},{id:protection,lvl:5}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:64,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:netherite_chestplate,Count:1,tag:{display:{Name:'{\"text\":\"Pirate Shirt\"}'},Enchantments:[{id:unbreaking,lvl:3},{id:protection,lvl:5}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:64,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:netherite_leggings,Count:1,tag:{display:{Name:'{\"text\":\"Pirate Pants\"}'},Enchantments:[{id:unbreaking,lvl:3},{id:protection,lvl:5}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:64,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:netherite_boots,Count:1,tag:{display:{Name:'{\"text\":\"Pirate Shoes\"}'},Enchantments:[{id:unbreaking,lvl:3},{id:protection,lvl:5}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:48,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:diamond_helmet,Count:1,tag:{display:{Name:'{\"text\":\"Almost Pirate Hat\"}'},Enchantments:[{id:unbreaking,lvl:2},{id:protection,lvl:3}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:48,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:diamond_chestplate,Count:1,tag:{display:{Name:'{\"text\":\"Almost Pirate Shirt\"}'},Enchantments:[{id:unbreaking,lvl:2},{id:protection,lvl:3}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:48,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:diamond_leggings,Count:1,tag:{display:{Name:'{\"text\":\"Almost Pirate Pants\"}'},Enchantments:[{id:unbreaking,lvl:2},{id:protection,lvl:3}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:48,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:diamond_boots,Count:1,tag:{display:{Name:'{\"text\":\"Almost Pirate Shoes\"}'},Enchantments:[{id:unbreaking,lvl:2},{id:protection,lvl:3}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:32,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:iron_helmet,Count:1,tag:{display:{Name:'{\"text\":\"Not Quite Pirate Hat\"}'},Enchantments:[{id:unbreaking,lvl:1},{id:protection,lvl:1}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:32,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:iron_chestplate,Count:1,tag:{display:{Name:'{\"text\":\"Not Quite Pirate Shirt\"}'},Enchantments:[{id:unbreaking,lvl:1},{id:protection,lvl:1}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:32,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:iron_leggings,Count:1,tag:{display:{Name:'{\"text\":\"Not Quite Pirate Pants\"}'},Enchantments:[{id:unbreaking,lvl:1},{id:protection,lvl:1}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:32,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:iron_boots,Count:1,tag:{display:{Name:'{\"text\":\"Not Quite Pirate Shoes\"}'},Enchantments:[{id:unbreaking,lvl:1},{id:protection,lvl:1}]}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:16,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:leather_helmet,Count:1,tag:{display:{Name:'{\"text\":\"Paparazzi Hat\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:16,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:leather_chestplate,Count:1,tag:{display:{Name:'{\"text\":\"Paparazzi Shirt\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:16,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:leather_leggings,Count:1,tag:{display:{Name:'{\"text\":\"Paparazzi Pants\"}'}}},rewardExp:0b,maxUses:9999999},{buy:{id:gold_ingot,Count:16,tag:{display:{Name:'{\"text\":\"Loot\"}'},Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}},sell:{id:leather_boots,Count:1,tag:{display:{Name:'{\"text\":\"Paparazzi Shoes\"}'}}},rewardExp:0b,maxUses:9999999} ]}}}"
+
+            }
+          ],
+          "name": "minecraft:villager_spawn_egg"
+        }
+      ]
+    }
+  ]
+}

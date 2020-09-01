@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 5,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Loot\"}'}, Enchantments:[{id:unbreaking,lvl:1}], isLoot:True}"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        }
+      ]
+    }
+  ]
+}
